@@ -35,14 +35,12 @@ async def start(client, message):
         f"Hello {message.from_user.first_name}❤️ Welcome! Send me an image and choose an action",reply_to_message_id = message.id ,  reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢" ,url=f"https://t.me/Sunrises24BotUpdates") ],
+                    InlineKeyboardButton("𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢" ,url=f"https://t.me/llathu63035") ],
                     [
-                    InlineKeyboardButton("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🧑🏻‍💻" ,url="https://t.me/Sunrises_24") ],
-                    [
-                    InlineKeyboardButton("𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🎞️" ,url="https://t.me/sunriseseditsoffical6") ]                               
+                    InlineKeyboardButton("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 🧑🏻‍💻" ,url="https://t.me/TG_LATHEESH") ]                            
             ]))
    
-print("Bot Started!🦋 © t.me/Sunrises_24")
+print("Bot Started!🦋 © t.me/llathu63035")
 
 # Function to handle /help command
 @app.on_message(filters.command("help"))
@@ -79,7 +77,7 @@ Enter Any Text Eg:- /font [text]
 
  💭This bot is designed to apply filters to images.
  
-🔱 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Sunrises_24'>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™</a></b>
+🔱 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/TG_LATHEESH'>𝗟𝗔𝗧𝗛𝗘𝗘𝗦𝗛</a></b>
     
    """
     await message.reply_text(help_text)
@@ -89,9 +87,14 @@ Enter Any Text Eg:- /font [text]
 @app.on_message(filters.command("about"))
 async def about_command(client, message):
     about_text = """
-<b>✯ Mʏ Nᴀᴍᴇ :  <a href=https://t.me/PHOTOENHANCER24BOT>🦋Pʜᴏᴛᴏ Eɴʜᴀɴᴄᴇʀ 𝟸𝟺 Bᴏᴛ🦋</a></b></b>
-<b>✯ Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻 : <a href=https://t.me/Sunrises_24>𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒™ ✨</a></b>
-<b>✯ Uᴘᴅᴀᴛᴇs 📢 : <a href=https://t.me/Sunrises24BotUpdates>𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢</a></b>
+    HI USER IN AM GLAD TO TELL MY DETAILS.
+    I AM A BOT WHICH CAN PERFORM MULTI TASKS WITH ONE HAND.
+    USING ME YOU CAN EDIT PHOTOS AS YOU WISHED WITHOUT PAYING MONEY.
+    YOU CAN ALSO FIND SONGS USING ME .
+    YOU CAN ALSO FIND SONGS LYRICS ALSO.
+    IF YOU DON'T KNOW THE COMMANDS JUST TYPE /help .
+<b>✯ Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻 : <a href=https://t.me/TG_LATHEESH>𝗟𝗔𝗧𝗛𝗘𝗘𝗦𝗛</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs 📢 : <a href=https://t.me/llathu63035>𝐔𝐏𝐃𝐀𝐓𝐄𝐒 📢</a></b>
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs 📊 : ᴠ2 [Sᴛᴀʙʟᴇ]</b>
     """
     await message.reply_text(about_text)
@@ -221,7 +224,7 @@ async def song(client, message):
     ffile = file.replace("mp4", "mp3")
     os.rename(file, ffile)
     await pak.edit('Uploading...')
-    await message.reply_audio(audio=ffile, title=sname, performer=ssingers,caption=f"[{sname}]({r['data']['results'][0]['url']}) - from saavn ",thumb=thumbnail)
+    await message.reply_audio(audio=ffile, title=sname, performer=ssingers,caption=f"[{sname}]({r['data']['results'][0]['url']}) \n<b>✯ Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻 : <a href=https://t.me/TG_LATHEESH>𝗟𝗔𝗧𝗛𝗘𝗘𝗦𝗛</a> ",thumb=thumbnail)
     os.remove(ffile)
     os.remove(thumbnail)
     await pak.delete()
@@ -302,7 +305,7 @@ def lyrics(song):
         fin = search(song)
         text = f'**🎶 Sᴜᴄᴄᴇꜱꜰᴜʟʟy Exᴛʀᴀᴄᴛᴇᴅ Lyɪʀɪᴄꜱ Oꜰ {song}**\n\n'
         text += f'`{fin["lyrics"]}`'
-        text += f'\n\n\n**Made By Sᴜɴʀɪsᴇs Hᴀʀsʜᴀ 𝟸𝟺 🇮🇳 ᵀᴱᴸ**'
+        text += f'\n\n\n**BY NTM ᵀᴱᴸ**'
         return text
 
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
