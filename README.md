@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+🦋𝐏𝐇𝐎𝐓𝐎+𝐄𝐍𝐂𝐇𝐀𝐍𝐂𝐄𝐑+𝟐𝟒+𝐁𝐎𝐓🦋!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒+𝐇𝐀𝐑𝐒𝐇𝐀+𝟐𝟒✨!;🦋+𝐏𝐇𝐎𝐓𝐎+𝐄𝐍𝐂𝐇𝐀𝐍𝐂𝐄𝐑+𝟐𝟒+𝐁𝐎𝐓!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELOCME+TO+MY+BOT)</p>
 <img src="https://telegra.ph/file/d71113c68302b575f44af.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
@@ -11,7 +11,7 @@
 
 Press Below Button to Deploy!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aluval/PHOTOENHANCER24BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Alatheesh/PHOTOENHANCER24BOT)
 
 ###  **𝑅𝐸𝑄𝑈𝐼𝑅𝐸𝐷 𝑉𝐴𝑅𝐼𝐴𝐵𝐿𝐸𝑆** 
 
@@ -44,11 +44,10 @@ repo - 𝑇𝑜 𝑠𝑒𝑎𝑟𝑐ℎ 𝑟𝑒𝑝𝑜 𝑓𝑟𝑜𝑚 𝐺�
  ```
 
 ### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
-- [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/Sunrises_24)
-- [ᴄʜᴀɴɴᴇʟ](https://telegram.me/sunriseseditsoffical6)
-- [ᴜᴘᴅᴀᴛᴇs](https://telegram.me/Sunrises24BotUpdates)
+- [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/TG_LATHEESH)
+- [ᴜᴘᴅᴀᴛᴇs](https://telegram.me/llathu63035)
 
-### Copyright ©️ [𝗦ᴜɴʀɪ𝘀ᴇ𝘀 𝗛ᴀʀ𝘀ʜᴀ 𝟸𝟺 🇮🇳 ᵀᴱᴸ](https://telegram.me/Sunrises_24)
+### Copyright ©️ [LATHEESH](https://telegram.me/TG_LATHEESH)
 
 <b>Selling This Repo For Money Is Strictly Prohibited 🚫</b>
 
