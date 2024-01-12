@@ -1,4 +1,3 @@
-#Sᴜɴʀɪsᴇs Hᴀʀsʜᴀ 𝟸𝟺 🇮🇳 ᵀᴱᴸ
 import os, asyncio
 import requests, wget
 from pyrogram.types import (InlineKeyboardButton,  InlineKeyboardMarkup)
@@ -10,7 +9,6 @@ from pyrogram.types import *
 from telegraph import upload_file
 from pyrogram.enums import ChatAction
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 
 # Retrieve your Telegram API credentials and bot token
 API_ID = int(os.environ.get("API_ID"))
@@ -122,7 +120,6 @@ def convert_to_grayscale(image_path):
     grayscale_image = image.convert('L')
     return grayscale_image
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to handle /enhance command
 @app.on_message(filters.command("enhance"))
 async def enhance_command(client, message):
@@ -146,7 +143,6 @@ def enhance_image(image_path):
     enhanced_image = enhancer.enhance(1.5)  # Adjust enhancement factor as needed
     return enhanced_image
     
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to handle /changecolor command
 @app.on_message(filters.command("changecolor"))
 async def changecolor_command(client, message):
@@ -170,7 +166,6 @@ def change_color(image_path, new_color=(255, 0, 0)):
     image = ImageOps.colorize(image.convert('L'), black="black", white=new_color)
     return image
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to Telegraph 
 @app.on_message(filters.command("telegraph"))
 async def telegraph_upload(client, message):
@@ -197,9 +192,8 @@ async def telegraph_upload(client, message):
         disable_web_page_preview=True,
     )
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to JioSaavn
-@app.on_message(filters.command('ssong') & filters.text)
+@app.on_message(filters.command('song') & filters.text)
 async def song(client, message):
     try:
        args = message.text.split(None, 1)[1]
@@ -229,7 +223,6 @@ async def song(client, message):
     os.remove(thumbnail)
     await pak.delete()
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to Repo
 @app.on_message(filters.command("repo"))
 async def repo(client, message):
@@ -254,7 +247,6 @@ async def repo(client, message):
     else:
         await message.reply_text("ᴜsᴀɢᴇ: /repo {repo_name}")
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Function to handle /resizephoto command
 @app.on_message(filters.command("resizephoto"))
 async def resize_photo_command(client, message):
@@ -277,7 +269,6 @@ def resize_photo(image_path):
     resized_image = ImageOps.fit(image, (300, 300))  # Adjust the size as needed
     return resized_image
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Define the command to retrieve lyrics
 @app.on_message(filters.command("lyrics"))
 async def sng(client, message):
@@ -308,7 +299,6 @@ def lyrics(song):
         text += f'\n\n\n**BY NTM ᵀᴱᴸ**'
         return text
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Define the command to  Removebgsticker 
 @app.on_message(filters.command("removebgsticker"))
 async def removebg_sticker(client, message):
@@ -371,7 +361,6 @@ async def removebg_sticker(client, message):
                 return
 
 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Define the command to  RemovebgPlain
 @app.on_message(filters.command("removebgplain"))                
 async def removebg_plain(client, message):
@@ -433,7 +422,6 @@ async def removebg_plain(client, message):
             except Exception:
                 return
                 
-#ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 # Define the command to  RemovebgWhite
 @app.on_message(filters.command("removebgwhite"))
 async def removebg_white(client, message):
