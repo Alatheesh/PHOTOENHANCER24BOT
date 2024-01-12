@@ -275,7 +275,7 @@ async def sng(client, message):
         if not message.reply_to_message:
           await message.reply_text("Please reply to a message")
         else:          
-          mee = await message.reply_text("`Searching 🔎`")
+          mee = await message.reply_text("`Searching...🔎`")
           song = message.reply_to_message.text
           chat_id = message.from_user.id
           rpl = lyrics(song)
